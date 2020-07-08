@@ -18,46 +18,46 @@ Même si on retrouve la métaphore de l'artisanat logiciel avant cette date, c'e
 que le mouvement est vraiment né avec la création du [manifeste](http://manifesto.softwarecraftsmanship.org/) 
 qui se veut comme une "extension" au [manifeste agile](https://agilemanifesto.org/) afin d'en préciser certains aspects.
 
-*Pas seulement des logiciels opérationnels, mais aussi **des logiciels bien conçus***.
-
-*Pas seulement l'adaptation aux changements, mais aussi l'**ajout constant de la valeur***. 
-
-*Pas seulement les individus et leurs interactions, mais aussi une **communauté de professionnels***.
-
-*Pas seulement la collaboration avec les clients, mais aussi des **partenariats productifs***.
-
-
 Le *Software Craftsmanship* correspond donc à un état d'esprit, des attitudes et des bonnes pratiques techniques.
 
 
 # CCSL 3.1, et si on donnait un sens au L?
 
-C'est avec cet état d'esprit que nous abordons le sujet du développement logiciel à CCSL.
-Nous sommes tous témoins de disfonctionnements à la CC qui mènent notamment à la perte de notre maîtrise d'oeuvre et
-à la démotivation de certains de nos collègues.
+C'est avec cet état d'esprit que nous abordons le sujet du développement logiciel à la CCSL.
+Nous sommes tous témoins de disfonctionnements à la CC qui mènent à la perte de notre maîtrise d'oeuvre, aux échecs de nos projets
+à la démotivation de la majorité d'entre nous.
 
-Profitons de cette période particulière et proposons de vrais changements pour devenir un vrai centre de compétence et redonner un sens au développement logiciel à la CC.
+Profitons de cette période particulière et proposons de vrais changements pour donner un sens au développement logiciel à la CC.
+Ainsi, la prochaine fois que l'on s'interroge si la CC va recruter des développeurs, la réponse sera :
+"*Oui, nous sommes toujours à la recherche de nouveaux talents, et spécifiquement des craftmen*".
+
 
 Dans un premier temps, nous souhaitons d'abord recueillir vos avis sur les problèmes et les solutions possibles.
 Pour cela, deux moyens à votre dispositions :
+
 * Une [Carte Mentale](https://www.mindmeister.com/1442947995?t=oINRjK1HaW#history) collaborative
-* un salon Citadelle "CCSL Soft Crafts" (Invitation à suivre)
+* un salon Citadelle [CCSL Soft Crafts](https://thales.citadel.team/#/room/!JZljFoeEySYBsjwgrB:thales.citadel.team)
 
-Quelques consignes pour la *carte mentale* :
-* 
+**Quelques consignes pour la carte mental**
 
+La carte est constituée de trois parties :
 
+* *WHAT*: on note ici les problèmes observés à la CC
+* *WHY*: pourquoi nous voulons travailler à un changement
+* *HOW*: quels sont les thèmes sur lesquels il faut agir ainsi sur des actions à envisager
+ 
 
-======================
-Un *craftman* doit toujours avoir une attitude qui sert le client et ne jamais perdre de vue la vision produit.
-Cela implique de savoir dire NON tout en proposant des alternatives et d'autres solutions, car c'est cela être professionel.
-Un *craftman* doit prendre conscience qu'il est le seul responsable de sa carrière, et doit donc agir en conséquence.
+N'hésitez pas à ajouter des descriptions détaillées à vos différentes bulles. Ou illustrer par des exemples concrets dans vos projet/tribus.
+Vous pouvez aussi commenter et voter (dans la partie commentaire) pour les idées qui pour vous sont les plus importantes.
 
-Un *craftman* se doit d'être toujours à jour et donc ne doit jamais arrêter d'apprendre et de s'entraîner.
+**Et pour la suite ?**
 
-Un *craftman* fait parti d'une communauté qui partage, s’accompagne et s’entraide.
+Nous vous proposons le plan suivant :
 
-Enfin, un *cratman* utilise les meileurs pratiques techniques à sa disposition :
-Test Driven Developpement, Clean Code, Simple Design, Pair Programming...
-
-
+* T0 : envoi de ce mail et début des réflexions autour de la mindmap, recueils d’idées et actions.
+* T0 + 2w : Formalisation du mindmap et proposition d’un plan d’action soumis à l’aval de la communauté.
+* T0 + 3w : Une fois validé, nous prévoyons un première réunion avec B. Agasse pour lui soumettre nos propositions à T1.
+* T1 + 1w : restitution des échanges avec B.Agasse et ajustement du plan d’action (nous devrons surement prévoir plusieurs itérations entre nous et le management) pour une mise en œuvre T2.
+ 
+Le planning prévisionnel est bien évidemment et surtout dans la période actuelle indicatif.
+L’idée principale étant d’avoir un plan d’actions figé et agréé par tous avant les vacances d’été.

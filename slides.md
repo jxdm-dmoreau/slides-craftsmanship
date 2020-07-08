@@ -28,13 +28,101 @@ fn main() {
 }
 ```
 
-
 ---
 
 <br>
 <br>
 
-# What's a Software Developer?
+# Software Development Project?
+<!--
+Business <=> Team <=> User
+Comment on gère ce type de projet
+-->
+
+---
+
+![bg contain](./img/Cycle_de_developpement_en_v.svg.png)
+<!--
+Semble naturel.
+Si cela échoue, on a surement raté une étape
+-->
+
+---
+
+<br >
+<br >
+
+# Does not work!
+# WHY?
+
+<!--
+Business, change d'avis, ne sait pas trop ce qu'il veut au départ.
+Son besoin dépend aussi de ce qu'on est capable de développer.
+Son besoin peut évoluer.
+Communication entre le business entre l'équipe de dev
+La communication au sein de l'équipe.
+la communication avec les équipes de validation/utilisateurs finaux.
+
+Tunnel, rigide
+ce n'est pas la nature du soft de fonctionner comme cela.
+
+-->
+
+---
+# Agile Manifesto (2001)
+
+![bg left:33%](./img/agile.jpeg)
+<!--
+En février 2001, aux États-Unis, dix-sept spécialistes du développement logiciel
+* 4 valeurs/12 principes
+* mindset + manifest
+* framework: scrum/XP...
+-->
+**Individuals and Interactions** over processes and tools
+
+**Working Software** over comprehensive documentation
+
+**Customer Collaboration** over contract negotiation
+
+**Responding to Change** over following a plan 
+
+
+---
+![bg left:33%](./img/surf.jpg)
+
+###  What
+* Accept change
+* Learn to ride
+
+###  How
+* Feedback loop providing data
+* Business Value Oriented
+
+
+---
+<br >
+<br >
+
+# Agility is eating the world
+
+---
+
+![bg left:100% 80%](./img/agile-hangover.jpg)
+
+---
+![bg left:33%](./img/question.jpeg)
+
+
+<br>
+<br>
+
+## What's Wrong?
+## What's Missing?
+### What's Software Development?
+
+
+<br>
+
 
 
 
@@ -44,16 +132,17 @@ fn main() {
 <!--
 * Métaphore de la construction, architecte + autres corps de métier
 * Archicte construction != Architecte logiciel
-* Voir swarch, ivory tower
 * Construction, c'est la compilation. la conception, c'est le développement
 * La construction est un procédé industrielle maintenant mature avec des contraintes physiques claires
 * Le developpement logiciel reste un métier jeun et surtout en perpetuelle évolution
 * La créativité des différents corps de métier reste très limité par rapport au plan
 Exemple il y a 30 ans (proc 200Mhz, pas de javascript, ni PHP/java)
 * Les progrès de la construction sont simples et visibles alors que le développement logiciel est abstrait et invisible => dmo
-* Processus de fabrication
 * Si on recommence la même maison: temps identique, peu importe les macons
 * Différents en softs: apprentissage + différentes compétences
+
+* apprentissage et résolution d'un problème
+* Dépendant de l'équipe
 -->
 ---
 
@@ -94,78 +183,13 @@ specific product to satisfy a client need
 Parler de génération de code -->
 
 ---
-
-# Software development
-
-### Complex != Difficulty
-* Ecosystem constant evolution 
-* Software needs evolution
-* art, creativiy
-
-
----
-
-<br>
-<br>
-
-# What's Agile?
-
----
-
-![bg contain](./img/Cycle_de_developpement_en_v.svg.png)
-
-<!--
-* Cycle de développement en cascade
-* Ne répond pas au besoin de changement du monde du développement logiciel. Changement fonctionnel, changement de design
--->
-
----
-
-### Software Developpement
-Qu'est-ce que l'agilité
-=> un manifeste
-=> mindset
-
-des exemples: scrum, extrem programming
-
-=> Complex != compliqué
-
-Complexité de nommer les choses
-Le soft est partout: diesel gaten boeing...
-la qualité intrinsèque est gratuite: se former qui est cher
-Pourquoi désirer la qualité: pour soi, pour l'équipe
-qualité intrinsèque: code, architecture, sécurité, performance
-
-
----
-# Agile Manifesto (2001)
-
-![bg left:33%](./img/agile.jpeg)
-<!--
-En février 2001, aux États-Unis, dix-sept spécialistes du développement logiciel
-* 4 valeurs/12 principes
--->
-**Individuals and Interactions** over processes and tools
-
-**Working Software** over comprehensive documentation
-
-**Customer Collaboration** over contract negotiation
-
-**Responding to Change** over following a plan 
-
----
-
-![bg left:100% 80%](./img/agile-hangover.jpg)
-
----
 ![bg left:33%](./img/question.jpeg)
 
-### What's Wrong?
-### What's Missing?
 
 <br>
+<br>
 
-* In a software product, the most important deliverable is the software itself
+###  In a software product, the most important deliverable is the software itself
 
 
 ---
@@ -185,7 +209,6 @@ Ne prend pas le temps d'automatiser une tache répétitive -->
 ---
 <!-- les sociétés choisissent cherchent uniquement un coût -->
 
----
 <!--
 ### HOWTO Create a better Software
 
@@ -262,7 +285,13 @@ Not only customer collaboration, but also **productive partnerships**
     - Complexity
     - Technical Debt
 
-<!-- "tendance naturelle d'un système à se désordonner" -->
+<!-- "tendance naturelle d'un système à se désordonner"
+* parler de Sonar
+-->
+---
+
+
+![bg contain](./img/debt.jpg)
 
 ---
 ![bg left:33%](./img/pair.png)
@@ -279,6 +308,22 @@ Not only customer collaboration, but also **productive partnerships**
 - Pair Programming
 
 
+---
+
+
+![bg contain](./img/pair.jpg)
+
+<!--
+Parler de collective ownership
+-->
+
+---
+
+
+![bg contain](./img/tdd.jpg)
+
+---
+![bg contain](./img/tdd2.jpeg)
 
 
 ---
