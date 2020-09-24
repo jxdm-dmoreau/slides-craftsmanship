@@ -28,45 +28,7 @@ fn main() {
 }
 ```
 
----
 
-<br>
-<br>
-
-# Software Development Project?
-<!--
-Business <=> Team <=> User
-Comment on gère ce type de projet
--->
-
----
-
-![bg contain](./img/Cycle_de_developpement_en_v.svg.png)
-<!--
-Semble naturel.
-Si cela échoue, on a surement raté une étape
--->
-
----
-
-<br >
-<br >
-
-# Does not work!
-# WHY?
-
-<!--
-Business, change d'avis, ne sait pas trop ce qu'il veut au départ.
-Son besoin dépend aussi de ce qu'on est capable de développer.
-Son besoin peut évoluer.
-Communication entre le business entre l'équipe de dev
-La communication au sein de l'équipe.
-la communication avec les équipes de validation/utilisateurs finaux.
-
-Tunnel, rigide
-ce n'est pas la nature du soft de fonctionner comme cela.
-
--->
 
 ---
 # Agile Manifesto (2001)
@@ -90,11 +52,9 @@ En février 2001, aux États-Unis, dix-sept spécialistes du développement logi
 ---
 ![bg left:33%](./img/surf.jpg)
 
-###  What
+###  TL;DR;
 * Accept change
 * Learn to ride
-
-###  How
 * Feedback loop providing data
 * Business Value Oriented
 
@@ -103,7 +63,7 @@ En février 2001, aux États-Unis, dix-sept spécialistes du développement logi
 <br >
 <br >
 
-# Agility is eating the world
+# Agility everywhere
 
 ---
 
@@ -118,13 +78,27 @@ En février 2001, aux États-Unis, dix-sept spécialistes du développement logi
 
 ## What's Wrong?
 ## What's Missing?
-### What's Software Development?
 
 
 <br>
 
 
 
+
+
+---
+![bg left:33%](./img/factory.jpg)
+#### Wrong understanding
+
+- Well-defined industrial process
+- Engineeers and Architects
+- Developpers as factory workers
+- More developpers, more production
+- Monnitoring
+    - number of lines
+    - % comments
+<!-- Un deveppeur sous pression prend des raccourcis, ajoute de la complexité.
+Ne prend pas le temps d'automatiser une tache répétitive -->
 
 ---
 
@@ -144,6 +118,7 @@ Exemple il y a 30 ans (proc 200Mhz, pas de javascript, ni PHP/java)
 * apprentissage et résolution d'un problème
 * Dépendant de l'équipe
 -->
+
 ---
 
 ![bg](./img/piano-1846719_1920.jpg)
@@ -159,16 +134,58 @@ Exemple il y a 30 ans (proc 200Mhz, pas de javascript, ni PHP/java)
 ![bg](./img/garden-2040714_1920.jpg)
 <!--
 * Un logiciel ressemble à un jardin qui mérite un entretien en même temps qu'il grandit
+
 * Entretien régulier/art
 -->
 
+---
+
+* writter
 
 ---
 
 ![bg c](./img/tools.jpg)
+<!-- Définition de l'artisan -->
+
+---
+
+* Mauvaise utilisation de l'agilité 
+* Flaccid Scrum (Martin Fowler 2009)
+** no quality, no practicle technique
+---
+
+###  In a software product, the most important deliverable is the code  itself
+
+---
+![bg left:33%](./img/question.jpeg)
+<br>
+###  Why Better Code is so important?
+---
+
+![bg contain](./img/debt.jpg)
+
+---
+![bg left:33%](./img/desordre.jpg)
+## The Invisible Threat
 
 
+![width:400px](./img/coc.svg)
+- Software Entropy
+    - Complexity
+    - Technical Debt
 
+<!-- Parallèle avec analyse statique de code
+qui calcule une dette technique alors que c'est plutot 
+le nombre de faute d'orthograpge !->
+
+
+<!-- "tendance naturelle d'un système à se désordonner"
+* parler de Sonar
+-->
+
+---
+
+# Software Crafsmanship
 
 
 <!--
@@ -183,30 +200,8 @@ specific product to satisfy a client need
 Parler de génération de code -->
 
 ---
-![bg left:33%](./img/question.jpeg)
 
 
-<br>
-<br>
-
-###  In a software product, the most important deliverable is the software itself
-
-
----
-![bg left:33%](./img/factory.jpg)
-#### A Naive Approach to Software Projects
-
-- Well-defined industrial process
-- Engineeers and Architects
-- Developpers as factory workers
-- More developpers, more production
-- Monnitoring
-    - number of lines
-    - % comments
-<!-- Un deveppeur sous pression prend des raccourcis, ajoute de la complexité.
-Ne prend pas le temps d'automatiser une tache répétitive -->
-
----
 <!-- les sociétés choisissent cherchent uniquement un coût -->
 
 <!--
@@ -234,14 +229,9 @@ Not only responding to change,but also **steadily adding value**
 Not only individuals and interactions, but also a **community of professionals**
 
 Not only customer collaboration, but also **productive partnerships**
-
----
-![bg left:33%](./img/def.jpg)
-#### Software Craftsmanship: A Mindset
-<!-->>It's a mindset where software developpers choose to be responsible for their own carreers, constantly bettering themselves.-->
-
->Software Craftsmanship is all about putting responsibility, professionalism, pragmatism, and pride back into software developpement.
-*Sandro Mancuso, The Software Craftsman, 2014*
+<!-- Complexité de comprendre le business
+les seules spécificaitons non ambigues sont le code
+-->
 
 ---
 <!--
@@ -250,7 +240,6 @@ Not only customer collaboration, but also **productive partnerships**
 >It is a response by software developers to the perceived ills of the mainstream software industry, including the prioritization of financial concerns over developer accountability
 *Wikipedia*
 
----
 ## Un peu d'Historique
 
 * 1992, "What Is Software Design?", Jack W. Reeves
@@ -267,64 +256,95 @@ Not only customer collaboration, but also **productive partnerships**
 ![bg left:33%](./img/oath.jpg)
 # Mindset and Behaviors
 
-- Never stop learning
-- Never stop improving his craft
-- Learn how to say no
-- Provide options
-- Be responsible
+---
+- Be responsible & professionnal
+<!-- pour nous et le clien -->
+- Learn how to say no & provide options
+
+<!-- parler d'estimation -->
+<!-- On n'a pas le temps -->
+<!-- vaincre le syndrome du héros -->
+<!-- Trouver des anesdotes -->
+
+--- 
+- Never stop learning and improving his craft
 - Share your knowledges
+<!-- dans l'équipe, dans la société, conférence ... -->
+<!-- ici on montre que tous les développeurs sont différents -->
+
+
 
 
 ---
-![bg left:33%](./img/desordre.jpg)
-## The Invisible Threat
-
-
-![width:400px](./img/coc.svg)
-- Software Entropy
-    - Complexity
-    - Technical Debt
-
-<!-- "tendance naturelle d'un système à se désordonner"
-* parler de Sonar
--->
----
-
-
-![bg contain](./img/debt.jpg)
-
----
-![bg left:33%](./img/pair.png)
 
 ### Technical Practices
 
-- Clean Code
-    - Keep It Simple, Stupid (KISS)
-    - Boy Scout Rule
-    - YAGNI
-    - Naming, Coupling...
-    - Refactoring
-- TDD (Test Driven Developpement)
-- Pair Programming
 
 
 ---
+![bg left:50%](./img/clean_code.jpg)
 
 
+Clean code is code that is easy to understand and easy to change.
+
+<!-- Chaque morceau de code doit exprimer son intention
+Pourquoi est-ce important:
+* On passe 10 fois plus de temps à lire du code qu'à en écrire
+* C'est être responsable de laisser un code propore: 
+Pour les autres mais aussi pour nous.
+-->
+--- 
+#### Clean Design?
+* Simple Desgin (XP)
+    * Runs all the tests
+    * no duplicate code
+    * clearly express intent 
+    * YAGNI and KISS principle
+* SOLID principles
+    * Single responsability
+    * Open/Closed
+    * Liskov Subsitution
+    * Interface Segregation
+    * Dependency Inversion
+
+---
+![bg left:33%](./img/pair.png)
+### Pair/Mob Programming
+
+* Immediate feedback loop
+* Better and cleaner code
+* Collective ownership
+* Share knowledge
+
+--- 
 ![bg contain](./img/pair.jpg)
 
 <!--
 Parler de collective ownership
 -->
 
----
 
+---
+### Test Automation Strategy
+
+* feedback loop
+* pyramid des tests
+* TDD/ATDD/BDD
+<!-- pas besoin de test , j'ai déjà testé et ca marche -->
+<!-- On n'a pas besoin de TU -->
+
+
+---
 
 ![bg contain](./img/tdd.jpg)
 
 ---
 ![bg contain](./img/tdd2.jpeg)
 
+
+---
+Coding Dojo, Kata
+<!-- // avec le pianiste -->
 
 ---
 <style>
@@ -354,3 +374,12 @@ img[alt~="center"] {
 - Book "Clean Code: A Handbook of Agile Software Craftsmanship", Robert S. Martin, 2008
 - Book "Software Craftsmanship : Professionalism Pragmatism Pride", Sandro Mancuso, 2014
 - Conference "The Craftsman's Oath", Robert S. Martin - SCLConf 2018 
+
+---
+![bg left:33%](./img/def.jpg)
+#### Software Craftsmanship: A Mindset
+<!-->>It's a mindset where software developpers choose to be responsible for their own carreers, constantly bettering themselves.-->
+<!-- OK notre métier est mal compris, mais c'est à nous de l'expliquer et de dire non. A nous de prendre le temps de s'améliorer et de se formet. A nous de ne pas accepter d'introduire une dette technique non acceptable -->
+
+>Software Craftsmanship is all about putting responsibility, professionalism, pragmatism, and pride back into software developpement.
+*Sandro Mancuso, The Software Craftsman, 2014*
