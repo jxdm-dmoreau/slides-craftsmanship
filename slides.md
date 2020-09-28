@@ -1,37 +1,33 @@
 ---
 marp: true
-theme: gaia
+theme: uncover
 paginate: true
 ---
 
 ![bg left:33%](./img/forge-411923_640.jpg)
 
-<br>
-<br>
-
 # Software Craftsmanship
 
 ---
-# whoami
+
 
 
 ```rust
-fn main() {
+fn whoiam() {
 
-    let lastname = "Moreau";
+    let lastname  = "Moreau";
     let firstname = "David";
-    let company = "Thales Alenia Space";
-    let mut email:String = "david.moreau".to_owned();
-    email.push_str("@jxdm.fr");
+    let company   = "Thales Alenia Space";
+    let email     = "david.moreau@thalesaleniaspace.com";
+    let job       = "Developer/LeadTech/ProductOwner/Craftsman";
 
-    println!("I'm {} {} email:{}", firstname, lastname, email);
 }
 ```
 
 
-
 ---
-# Agile Manifesto (2001)
+### Agile Manifesto (2001)
+
 
 ![bg left:33%](./img/agile.jpeg)
 <!--
@@ -56,35 +52,72 @@ En février 2001, aux États-Unis, dix-sept spécialistes du développement logi
 * Accept change
 * Learn to ride
 * Feedback loop providing data
-* Business Value Oriented
+<!--* Business Value Oriented-->
 
 
 ---
-<br >
-<br >
 
-# Agility everywhere
+![bg left:33%](./img/postit.jpg)
+# Agility Everywhere
 
 ---
+
 
 ![bg left:100% 80%](./img/agile-hangover.jpg)
+-->
 
 ---
 ![bg left:33%](./img/question.jpeg)
 
 
-<br>
-<br>
 
-## What's Wrong?
-## What's Missing?
+# What's Wrong?
 
 
-<br>
+---
+
+![bg left:33%](./img/code.jpg)
+###  In a software product, the most important deliverable is the code  itself
 
 
 
 
+---
+
+![bg left:33%](./img/question.jpeg)
+###  Why better code is so important?
+---
+
+![bg contain](./img/debt.jpg)
+
+---
+![bg left:33%](./img/desordre.jpg)
+## The Invisible Threat
+
+
+### Software Entropy
+- Complexity
+- Technical Debt
+
+<!-- Parallèle avec analyse statique de code
+qui calcule une dette technique alors que c'est plutot 
+le nombre de faute d'orthograpge !->
+
+
+<!-- "tendance naturelle d'un système à se désordonner"
+* parler de Sonar
+Le seul moyen de ne pas ajouter d'entropie et de ne pas ajouter de ligne de code
+Complexité accidentelle augmente l'entropie
+Refactory diminue l'entropie ou du moins la ralentie
+Changer les cultures et les pratiques
+-->
+
+---
+![width:700px](./img/coc.svg)
+
+---
+
+# What's software developer/engineer?
 
 ---
 ![bg left:33%](./img/factory.jpg)
@@ -121,12 +154,12 @@ Exemple il y a 30 ans (proc 200Mhz, pas de javascript, ni PHP/java)
 
 ---
 
-![bg](./img/piano-1846719_1920.jpg)
+![bg](./img/plume.jpg)
 <!--
-* Métaphore de l'artiste
-* Pratiquer pour devenir meilleur comme un pianiste (par contre le piano évolue)
-* Compositeur: nommage des variables, choix des algos
-* Poète/peintre: beau code
+* Le développeur écrit du code qui doit être lisible et compris par d'autres
+* Certains vont trouver son écriture belle, propore, compréhensible, d'autres non.
+* Aspect subjectif de la qualité du code
+* L'écrivain utilise un correcteur orhtographique, le développeur utilise sonarQube
 -->
 
 ---
@@ -134,58 +167,24 @@ Exemple il y a 30 ans (proc 200Mhz, pas de javascript, ni PHP/java)
 ![bg](./img/garden-2040714_1920.jpg)
 <!--
 * Un logiciel ressemble à un jardin qui mérite un entretien en même temps qu'il grandit
-
 * Entretien régulier/art
+* Un logiciel qui n'évolue plus (ou qui ne peut plus), est un logiciel mort
+le temps ne peut pas s'arrêter car l'écosystème bouge: les librairies, les systèmes d'exploitation, le hardware, la sécurité.
 -->
 
----
-
-* writter
 
 ---
 
 ![bg c](./img/tools.jpg)
-<!-- Définition de l'artisan -->
-
----
-
-* Mauvaise utilisation de l'agilité 
-* Flaccid Scrum (Martin Fowler 2009)
-** no quality, no practicle technique
----
-
-###  In a software product, the most important deliverable is the code  itself
-
----
-![bg left:33%](./img/question.jpeg)
-<br>
-###  Why Better Code is so important?
----
-
-![bg contain](./img/debt.jpg)
-
----
-![bg left:33%](./img/desordre.jpg)
-## The Invisible Threat
-
-
-![width:400px](./img/coc.svg)
-- Software Entropy
-    - Complexity
-    - Technical Debt
-
-<!-- Parallèle avec analyse statique de code
-qui calcule une dette technique alors que c'est plutot 
-le nombre de faute d'orthograpge !->
-
-
-<!-- "tendance naturelle d'un système à se désordonner"
-* parler de Sonar
+<!-- Définition de l'artisan
+Qualification professionnelle pour effectuer un travail manuel
 -->
 
+
 ---
 
-# Software Crafsmanship
+![bg left:33%](./img/craft.jpg)
+## Software Crafsmanship Manifesto (2009)
 
 
 <!--
@@ -217,19 +216,14 @@ Parler de génération de code -->
 
 ---
 -->
-![bg left:33%](./img/craft.jpg)
-### Manifesto (2009)
+
+![bg 100%](./img/manifest.png)
 
 
-Not only working software, but also **well-crafted software**
-
-Not only responding to change,but also **steadily adding value**
-<!-- Règle du boy-scout -->
-
-Not only individuals and interactions, but also a **community of professionals**
-
-Not only customer collaboration, but also **productive partnerships**
-<!-- Complexité de comprendre le business
+<!-- 
+2> Règle du boy-scout
+3> 
+4> Complexité de comprendre le business
 les seules spécificaitons non ambigues sont le code
 -->
 
@@ -244,7 +238,7 @@ les seules spécificaitons non ambigues sont le code
 
 * 1992, "What Is Software Design?", Jack W. Reeves
 * 1999, "The Pragmatic Programmer: From Journeyman to Master "
-* 2017, "Software Craftsmanship: The New Imperative"
+* 2007, "Software Craftsmanship: The New Imperative"
 * 2008, "Craftsmanship over Crap", Robert C. Martin 
 * 2009, Manifesto for Software Craftsmanship
 * 2010, London Software Craftsmanship Community 
@@ -257,18 +251,22 @@ les seules spécificaitons non ambigues sont le code
 # Mindset and Behaviors
 
 ---
+<!-- pour nous et le client -->
+![bg left:33%](./img/Yoda.jpg)
+
 - Be responsible & professionnal
-<!-- pour nous et le clien -->
-- Learn how to say no & provide options
+- Learn how to say no
+- Provide options
+- Never stop learning and improving his craft
+- Share your knowledges
+
+<!-- -->
 
 <!-- parler d'estimation -->
 <!-- On n'a pas le temps -->
 <!-- vaincre le syndrome du héros -->
 <!-- Trouver des anesdotes -->
 
---- 
-- Never stop learning and improving his craft
-- Share your knowledges
 <!-- dans l'équipe, dans la société, conférence ... -->
 <!-- ici on montre que tous les développeurs sont différents -->
 
@@ -277,13 +275,16 @@ les seules spécificaitons non ambigues sont le code
 
 ---
 
-### Technical Practices
+![bg left:33%](./img/tedy.jpg)
+
+## Technical Practices
 
 
 
 ---
-![bg left:50%](./img/clean_code.jpg)
+![bg left:33%](./img/clean_code.jpg)
 
+### Clean Code
 
 Clean code is code that is easy to understand and easy to change.
 
@@ -292,9 +293,7 @@ Pourquoi est-ce important:
 * On passe 10 fois plus de temps à lire du code qu'à en écrire
 * C'est être responsable de laisser un code propore: 
 Pour les autres mais aussi pour nous.
--->
---- 
-#### Clean Design?
+
 * Simple Desgin (XP)
     * Runs all the tests
     * no duplicate code
@@ -306,7 +305,7 @@ Pour les autres mais aussi pour nous.
     * Liskov Subsitution
     * Interface Segregation
     * Dependency Inversion
-
+-->
 ---
 ![bg left:33%](./img/pair.png)
 ### Pair/Mob Programming
@@ -325,17 +324,15 @@ Parler de collective ownership
 
 
 ---
+![bg left:60% 100%](./img/pyramid.png)
 ### Test Automation Strategy
 
-* feedback loop
-* pyramid des tests
-* TDD/ATDD/BDD
 <!-- pas besoin de test , j'ai déjà testé et ca marche -->
 <!-- On n'a pas besoin de TU -->
+<!-- Test de construction, échafaudage -->
 
 
 ---
-
 ![bg contain](./img/tdd.jpg)
 
 ---
@@ -343,7 +340,14 @@ Parler de collective ownership
 
 
 ---
-Coding Dojo, Kata
+![bg left:33%](./img/question.jpeg)
+
+### HOWTO improve our craft?
+
+* Practice
+* Practice
+* Practice
+* Coding Dojo, Kata...
 <!-- // avec le pianiste -->
 
 ---
@@ -362,8 +366,6 @@ img[alt~="center"] {
 
 ---
 
-<br>
-<br>
 
 >Software Craftsmanship promises to take our industry to the next level, promoting professionalism, technical excellence, the death of the production line and factory workers attitude."
 *Sandro Mancuso*
@@ -375,11 +377,7 @@ img[alt~="center"] {
 - Book "Software Craftsmanship : Professionalism Pragmatism Pride", Sandro Mancuso, 2014
 - Conference "The Craftsman's Oath", Robert S. Martin - SCLConf 2018 
 
----
-![bg left:33%](./img/def.jpg)
-#### Software Craftsmanship: A Mindset
-<!-->>It's a mindset where software developpers choose to be responsible for their own carreers, constantly bettering themselves.-->
-<!-- OK notre métier est mal compris, mais c'est à nous de l'expliquer et de dire non. A nous de prendre le temps de s'améliorer et de se formet. A nous de ne pas accepter d'introduire une dette technique non acceptable -->
-
+<!--
 >Software Craftsmanship is all about putting responsibility, professionalism, pragmatism, and pride back into software developpement.
 *Sandro Mancuso, The Software Craftsman, 2014*
+-->
