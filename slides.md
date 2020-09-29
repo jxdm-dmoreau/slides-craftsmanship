@@ -116,8 +116,9 @@ Changer les cultures et les pratiques
 ![width:700px](./img/coc.svg)
 
 ---
+![bg left:50% 100%](./img/dog.png)
 
-# What's software developer/engineer?
+### What is software development?
 
 ---
 ![bg left:33%](./img/factory.jpg)
@@ -322,6 +323,16 @@ Pour les autres mais aussi pour nous.
 Parler de collective ownership
 -->
 
+---
+# Why we Test?
+To prove a program is correct
+To find bugs
+* l'absence de bug
+* valider le logiciel?
+Non, construction et trouver des bugs
+<!-- pas besoin de test, bah non c'est pas le PO qui décide -->
+<!-- echaffaudege et harnais de sécurité -->
+
 
 ---
 ![bg left:60% 100%](./img/pyramid.png)
@@ -348,7 +359,13 @@ Parler de collective ownership
 * Practice
 * Practice
 * Coding Dojo, Kata...
-<!-- // avec le pianiste -->
+<!-- 
+avec le pianiste
+On s'entraine sur les projets =>
+pas bon pour le projet
+pas bon pour le développeur
+-->
+
 
 ---
 <style>
