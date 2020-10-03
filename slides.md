@@ -49,16 +49,24 @@ En février 2001, aux États-Unis, dix-sept spécialistes du développement logi
 ![bg left:33%](./img/surf.jpg)
 
 ###  TL;DR;
-* Accept change
-* Learn to ride
-* Feedback loop providing data
-<!--* Business Value Oriented-->
+- Accept change
+- Learn to ride
+- Feedback loop providing data
+<!-- Analogie avec le bateau -->
 
 
 ---
 
 ![bg left:33%](./img/postit.jpg)
 # Agility Everywhere
+<!--
+Post-its partout
+Scrum, agilité à l'echele, Sage, Less, Scrum of Scrum, Modèle spotify
+Meetings became stanup-meetings
+Backlog
+use case -> stories
+project manager -> scrum master
+-->
 
 ---
 
@@ -92,24 +100,33 @@ En février 2001, aux États-Unis, dix-sept spécialistes du développement logi
 
 ---
 ![bg left:33%](./img/desordre.jpg)
-## The Invisible Threat
 
+## Software Entropy
 
-### Software Entropy
-- Complexity
-- Technical Debt
-
-<!-- Parallèle avec analyse statique de code
-qui calcule une dette technique alors que c'est plutot 
-le nombre de faute d'orthograpge !->
-
+- Essential **Complexity**
+- Involuntary **Technical Debt**
+    - Accidental Complexity
+- Voluntary **Technical Debt**
 
 <!-- "tendance naturelle d'un système à se désordonner"
-* parler de Sonar
+Essentielle: lié au métier ou l'architecture
+Accidentelle: Multiplication d'interface, dupplication de code
+Tech Debt inv: framework qui evolue, version du compilateur
+Tech Debt vol: Hack pour répondre à un besoin
+
+Sonar
+
 Le seul moyen de ne pas ajouter d'entropie et de ne pas ajouter de ligne de code
-Complexité accidentelle augmente l'entropie
-Refactory diminue l'entropie ou du moins la ralentie
+Reactory diminue l'entropie ou du moins la ralentie
+
+<!-- Pas de définition objective
+
 Changer les cultures et les pratiques
+- Boucle from scrach et on recommence
+
+
+* parler de Sonar
+Complexité accidentelle augmente l'entropie
 -->
 
 ---
@@ -188,35 +205,10 @@ Qualification professionnelle pour effectuer un travail manuel
 ## Software Crafsmanship Manifesto (2009)
 
 
-<!--
-* uses **his** knowledge and tools to create a 
-specific product to satisfy a client need
-* continiously improve its skills, to become a better developper
-* Each developper is different
-* :arrow_right: Craftsmanship Methaphor
--->
 
-<!-- Pour améliorer vos logiciles, il faut de meilleuirs artisans
-Parler de génération de code -->
 
 ---
 
-
-<!-- les sociétés choisissent cherchent uniquement un coût -->
-
-<!--
-### HOWTO Create a better Software
-
-- More Software Developpers or better Craftmen?
-
-    - Software Craftsmen
-- Give
-    - Autonomy
-    - Mastering
-    - Purpose
-
----
--->
 
 ![bg 100%](./img/manifest.png)
 
@@ -278,16 +270,15 @@ les seules spécificaitons non ambigues sont le code
 
 ![bg left:33%](./img/tedy.jpg)
 
-## Technical Practices
+# Technical Practices
 
 
 
 ---
-![bg left:33%](./img/clean_code.jpg)
+![bg left:33% 250%](./img/clean_code.jpg)
 
-### Clean Code
 
-Clean code is code that is easy to understand and easy to change.
+*Clean code is code that is easy to understand and easy to change.*
 
 <!-- Chaque morceau de code doit exprimer son intention
 Pourquoi est-ce important:
@@ -308,6 +299,40 @@ Pour les autres mais aussi pour nous.
     * Dependency Inversion
 -->
 ---
+![bg left:25% 100%](./img/test.png)
+
+# Test Strategy
+
+### Why we test?
+* To prove a program is correct? NO
+* To find bugs
+* To build the software
+* To check the software
+<!-- Couverture de code à 100% -->
+
+---
+
+![bg 100%](./img/marick.jpg)
+![bg 100%](./img/pyramid.png)
+
+
+<!-- Test de construction, échafaudage -->
+<!-- pas besoin de test , j'ai déjà testé et ca marche -->
+<!-- On n'a pas besoin de TU -->
+<!-- pas besoin de test, bah non c'est pas le PO qui décide -->
+<!-- plus du temps? monter echaffaudage, surtout la première -->
+<!-- Boucle de feedback -->
+
+
+
+---
+![bg contain](./img/tdd2.jpeg)
+
+---
+![bg contain](./img/tdd.jpg)
+
+
+---
 ![bg left:33%](./img/pair.png)
 ### Pair/Mob Programming
 
@@ -323,63 +348,39 @@ Pour les autres mais aussi pour nous.
 Parler de collective ownership
 -->
 
----
-# Why we Test?
-To prove a program is correct
-To find bugs
-* l'absence de bug
-* valider le logiciel?
-Non, construction et trouver des bugs
-<!-- pas besoin de test, bah non c'est pas le PO qui décide -->
-<!-- echaffaudege et harnais de sécurité -->
-
-
----
-![bg left:60% 100%](./img/pyramid.png)
-### Test Automation Strategy
-
-<!-- pas besoin de test , j'ai déjà testé et ca marche -->
-<!-- On n'a pas besoin de TU -->
-<!-- Test de construction, échafaudage -->
-
-
----
-![bg contain](./img/tdd.jpg)
-
----
-![bg contain](./img/tdd2.jpeg)
-
 
 ---
 ![bg left:33%](./img/question.jpeg)
 
 ### HOWTO improve our craft?
 
-* Practice
-* Practice
-* Practice
-* Coding Dojo, Kata...
+- Practice
+- Practice
+- Practice
+- Share
+
 <!-- 
-avec le pianiste
-On s'entraine sur les projets =>
-pas bon pour le projet
-pas bon pour le développeur
+Coding Dojo, Kata
+Analogie avec un pianiste (concert)
+Sinon sur le projet: pas bon
 -->
 
 
 ---
-<style>
-img[alt~="center"] {
-  display: block;
-  margin: 0 auto;
-}
-</style>
 
-### TL;DR
+### Conclusion
 
-![center](./img/balance.png)
+![bg left:40% 100%](./img/balance.png)
+
+> Profesionalism, Pragmatism & Pride
 
 
+---
+![bg left:40% 100%](./img/community.jpeg)
+### CCSL Software Craftsmanship Community
+- DSP-FR-TLS-CRAFT
+- Citadel
+- Wiki
 
 ---
 
