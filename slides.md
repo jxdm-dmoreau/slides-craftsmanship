@@ -114,28 +114,33 @@ Accidentelle: Multiplication d'interface, dupplication de code
 Tech Debt inv: framework qui evolue, version du compilateur
 Tech Debt vol: Hack pour répondre à un besoin
 
-Sonar
-
-Le seul moyen de ne pas ajouter d'entropie et de ne pas ajouter de ligne de code
-Reactory diminue l'entropie ou du moins la ralentie
-
-<!-- Pas de définition objective
-
-Changer les cultures et les pratiques
-- Boucle from scrach et on recommence
+Pas de définition objective
+Que mesure un outils d'analyse statique
 
 
-* parler de Sonar
-Complexité accidentelle augmente l'entropie
+
 -->
 
 ---
 ![width:700px](./img/coc.svg)
+<!--
+Le seul moyen de ne pas ajouter d'entropie et de ne pas ajouter de ligne de code
+Reactory diminue l'entropie ou du moins la ralentie
+
+
+Changer les cultures et les pratiques
+- Boucle from scrach et on recommence
+
+-->
 
 ---
 ![bg left:50% 100%](./img/dog.png)
 
 ### What is software development?
+<!--
+Pourquoi avons-nous oublié cette entropie logicielle?
+Mauvaise connaissance du métier de développement logiciel
+-->
 
 ---
 ![bg left:33%](./img/factory.jpg)
@@ -148,8 +153,13 @@ Complexité accidentelle augmente l'entropie
 - Monnitoring
     - number of lines
     - % comments
-<!-- Un deveppeur sous pression prend des raccourcis, ajoute de la complexité.
-Ne prend pas le temps d'automatiser une tache répétitive -->
+<!-- 
+A quoi sert un commentaire: le why = git
+Commentaires: un commentaire peut devenir faux, non compilable/vérifiable/testable
+
+Un deveppeur sous pression prend des raccourcis, ajoute de la complexité.
+Ne prend pas le temps d'automatiser une tache répétitive
+-->
 
 ---
 
@@ -203,6 +213,16 @@ Qualification professionnelle pour effectuer un travail manuel
 
 ![bg left:33%](./img/craft.jpg)
 ## Software Crafsmanship Manifesto (2009)
+<!--
+* 1992, "What Is Software Design?", Jack W. Reeves
+* 1999, "The Pragmatic Programmer: From Journeyman to Master "
+* 2007, "Software Craftsmanship: The New Imperative"
+* 2008, "Craftsmanship over Crap", Robert C. Martin 
+* 2009, Manifesto for Software Craftsmanship
+* 2010, London Software Craftsmanship Community 
+* 2014, "Software Craftsmanship : Professionalism Pragmatism Pride", Sandro Mancuso
+* 2017, 2018, 2019 Conférence SC Londres
+-->
 
 
 
@@ -213,33 +233,8 @@ Qualification professionnelle pour effectuer un travail manuel
 ![bg 100%](./img/manifest.png)
 
 
-<!-- 
-2> Règle du boy-scout
-3> 
-4> Complexité de comprendre le business
-les seules spécificaitons non ambigues sont le code
--->
 
 ---
-<!--
-# Définitions
->Software craftsmanship is an approach to software development that emphasizes the coding skills of the software developers.
->It is a response by software developers to the perceived ills of the mainstream software industry, including the prioritization of financial concerns over developer accountability
-*Wikipedia*
-
-## Un peu d'Historique
-
-* 1992, "What Is Software Design?", Jack W. Reeves
-* 1999, "The Pragmatic Programmer: From Journeyman to Master "
-* 2007, "Software Craftsmanship: The New Imperative"
-* 2008, "Craftsmanship over Crap", Robert C. Martin 
-* 2009, Manifesto for Software Craftsmanship
-* 2010, London Software Craftsmanship Community 
-* 2014, "Software Craftsmanship : Professionalism Pragmatism Pride", Sandro Mancuso
-* 2017, 2018, 2019 Conférence SC Londres
-
----
--->
 ![bg left:33%](./img/oath.jpg)
 # Mindset and Behaviors
 
@@ -304,10 +299,10 @@ Pour les autres mais aussi pour nous.
 # Test Strategy
 
 ### Why we test?
-* To prove a program is correct? NO
-* To find bugs
-* To build the software
-* To check the software
+- To prove a program is correct? NO
+- To find bugs
+- To build the software
+- To check the software
 <!-- Couverture de code à 100% -->
 
 ---
@@ -336,10 +331,10 @@ Pour les autres mais aussi pour nous.
 ![bg left:33%](./img/pair.png)
 ### Pair/Mob Programming
 
-* Immediate feedback loop
-* Better and cleaner code
-* Collective ownership
-* Share knowledge
+- Immediate feedback loop
+- Better and cleaner code
+- Collective ownership
+- Share knowledge
 
 --- 
 ![bg contain](./img/pair.jpg)
