@@ -24,17 +24,29 @@ fn whoiam() {
 }
 ```
 
+<!--
+Pourquoi cette présentation? Livre de Sandro
+-->
 
 ---
 ### Agile Manifesto (2001)
 
 
-![bg left:33%](./img/agile.jpeg)
+![bg left:33%](./img/surf.jpg)
 <!--
 En février 2001, aux États-Unis, dix-sept spécialistes du développement logiciel
 * 4 valeurs/12 principes
 * mindset + manifest
 * framework: scrum/XP...
+- Accept change
+- Learn to ride
+- Feedback loop providing data
+
+Analogie avec le bateau
+
+Meetings became stanup-meetings, backlog, use case - stories
+project manager -> scrum master
+Scrum, agilité à l'echele, Sage, Less, Scrum of Scrum, Modèle spotify
 -->
 **Individuals and Interactions** over processes and tools
 
@@ -44,29 +56,6 @@ En février 2001, aux États-Unis, dix-sept spécialistes du développement logi
 
 **Responding to Change** over following a plan 
 
-
----
-![bg left:33%](./img/surf.jpg)
-
-###  TL;DR;
-- Accept change
-- Learn to ride
-- Feedback loop providing data
-<!-- Analogie avec le bateau -->
-
-
----
-
-![bg left:33%](./img/postit.jpg)
-# Agility Everywhere
-<!--
-Post-its partout
-Scrum, agilité à l'echele, Sage, Less, Scrum of Scrum, Modèle spotify
-Meetings became stanup-meetings
-Backlog
-use case -> stories
-project manager -> scrum master
--->
 
 ---
 
@@ -96,17 +85,15 @@ project manager -> scrum master
 ###  Why better code is so important?
 ---
 
-![bg contain](./img/debt.jpg)
-
----
 ![bg left:33%](./img/desordre.jpg)
 
 ## Software Entropy
 
-- Essential **Complexity**
-- Involuntary **Technical Debt**
-    - Accidental Complexity
-- Voluntary **Technical Debt**
+- **Complexity**
+    - Essential
+- **Technical Debt**
+    - Involuntary
+    - Voluntary
 
 <!-- "tendance naturelle d'un système à se désordonner"
 Essentielle: lié au métier ou l'architecture
@@ -134,6 +121,9 @@ Changer les cultures et les pratiques
 -->
 
 ---
+![bg contain](./img/debt.jpg)
+
+---
 ![bg left:50% 100%](./img/dog.png)
 
 ### What is software development?
@@ -150,7 +140,7 @@ Mauvaise connaissance du métier de développement logiciel
 - Engineeers and Architects
 - Developpers as factory workers
 - More developpers, more production
-- Monnitoring
+- Monitoring
     - number of lines
     - % comments
 <!-- 
@@ -271,7 +261,7 @@ Exemple: bug faute a qui
 ![bg left:33%](./img/tedy.jpg)
 
 # Technical Practices
-<!-- jusque quelques pratiques recommandées aujourd'hui ->
+<!-- jusque quelques pratiques recommandées aujourd'hui -->
 
 
 
@@ -353,7 +343,7 @@ Fun
 ![bg contain](./img/pair.jpg)
 
 <!--
-Parler de collective ownership
+- Revue de code (// lecture d'un roman)
 -->
 
 
@@ -381,30 +371,28 @@ Sinon sur le projet: pas bon
 
 ![bg left:40% 100%](./img/balance.png)
 
-> Profesionalism, Pragmatism & Pride
+> Professionalism, Pragmatism & Pride
 
 
 ---
 ![bg left:40% 100%](./img/community.jpeg)
 ### CCSL Software Craftsmanship Community
-- DSP-FR-TLS-CRAFT
-- Citadel
-- Wiki
+- [DSP-FR-CCSL-CRAFT](DSP-FR.CCSL-CRAFT@thalesaleniaspace.com)
+- [Salon Citadel](https://thales.citadel.team/#/room/!JZljFoeEySYBsjwgrB:thales.citadel.team)
+- [Wiki](https://wiki.space.thales/pages/viewpage.action?pageId=405307635)
 
----
 
+<!--
 
 >Software Craftsmanship promises to take our industry to the next level, promoting professionalism, technical excellence, the death of the production line and factory workers attitude."
 *Sandro Mancuso*
 
----
 #### Ressources
 
 - Book "Clean Code: A Handbook of Agile Software Craftsmanship", Robert S. Martin, 2008
 - Book "Software Craftsmanship : Professionalism Pragmatism Pride", Sandro Mancuso, 2014
 - Conference "The Craftsman's Oath", Robert S. Martin - SCLConf 2018 
 
-<!--
 >Software Craftsmanship is all about putting responsibility, professionalism, pragmatism, and pride back into software developpement.
 *Sandro Mancuso, The Software Craftsman, 2014*
 -->
