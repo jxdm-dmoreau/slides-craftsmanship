@@ -231,6 +231,11 @@ Qualification professionnelle pour effectuer un travail manuel
 
 
 ![bg 100%](./img/manifest.png)
+<!--  Oliger de travailler en co-opération pour faire un lociel bien-concu et qui répond au besoin.
+Pourquoi: parce des spécifications complètes non anmiugs...
+Parce que la notion de forfait ou d'engagement tend à favoriser par nuture l'entropie.
+Exemple: bug faute a qui 
+-->
 
 
 
@@ -266,6 +271,8 @@ Qualification professionnelle pour effectuer un travail manuel
 ![bg left:33%](./img/tedy.jpg)
 
 # Technical Practices
+<!-- jusque quelques pratiques recommandées aujourd'hui ->
+
 
 
 
@@ -307,8 +314,8 @@ Pour les autres mais aussi pour nous.
 
 ---
 
-![bg 100%](./img/marick.jpg)
-![bg 100%](./img/pyramid.png)
+![bg 50%](./img/marick.jpg)
+<!-- ![bg 100%](./img/pyramid.png)-->
 
 
 <!-- Test de construction, échafaudage -->
@@ -322,12 +329,18 @@ Pour les autres mais aussi pour nous.
 
 ---
 ![bg contain](./img/tdd2.jpeg)
+<!-- Derisking
+Un système qui fonctionne tout le temps
+Pas de complexité inutile dans le code 
+Fun
+-->
 
 ---
 ![bg contain](./img/tdd.jpg)
 
 
 ---
+<!-- Une autre pratique technique recommandée par les crafter -->
 ![bg left:33%](./img/pair.png)
 ### Pair/Mob Programming
 
@@ -349,13 +362,14 @@ Parler de collective ownership
 
 ### HOWTO improve our craft?
 
-- Practice
-- Practice
-- Practice
-- Share
+- Practice Clean Code
+- Practice TDD
+- Practice Pair/Mob Programing
+- Practice...
 
 <!-- 
 Coding Dojo, Kata
+On ne s'entraine pas sur les projets
 Analogie avec un pianiste (concert)
 Sinon sur le projet: pas bon
 -->
