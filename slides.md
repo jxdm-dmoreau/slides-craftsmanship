@@ -71,7 +71,89 @@ Scrum, agilité à l'echele, Sage, Less, Scrum of Scrum, Modèle spotify
 # What's Wrong?
 
 
+
 ---
+![bg left:33%](./img/factory.jpg)
+#### Wrong understanding
+
+- Well-defined industrial process
+- Engineeers and Architects
+- Developpers as factory workers
+- More developpers, more production
+- Monitoring
+    - number of lines
+    - % comments
+<!-- 
+A quoi sert un commentaire: le why = git
+Commentaires: un commentaire peut devenir faux, non compilable/vérifiable/testable
+
+Un deveppeur sous pression prend des raccourcis, ajoute de la complexité.
+Ne prend pas le temps d'automatiser une tache répétitive
+-->
+
+---
+
+![bg left:50% 100%](./img/dog.png)
+
+### What is software development?
+<!--
+Pourquoi avons-nous oublié cette entropie logicielle?
+Mauvaise connaissance du métier de développement logiciel
+-->
+
+---
+
+![bg](./img/construction-site-3432379_1280.jpg)
+<!--
+* Métaphore de la construction, architecte + autres corps de métier
+* Archicte construction != Architecte logiciel
+* Construction, c'est la compilation. la conception, c'est le développement
+* La construction est un procédé industrielle maintenant mature avec des contraintes physiques claires
+* Le developpement logiciel reste un métier jeun et surtout en perpetuelle évolution
+* La créativité des différents corps de métier reste très limité par rapport au plan
+Exemple il y a 30 ans (proc 200Mhz, pas de javascript, ni PHP/java)
+* Les progrès de la construction sont simples et visibles alors que le développement logiciel est abstrait et invisible => dmo
+* Si on recommence la même maison: temps identique, peu importe les macons
+* Différents en softs: apprentissage + différentes compétences
+
+* apprentissage et résolution d'un problème
+* Dépendant de l'équipe
+-->
+
+---
+
+![bg](./img/plume.jpg)
+<!--
+* Le développeur écrit du code qui doit être lisible et compris par d'autres
+* Certains vont trouver son écriture belle, propore, compréhensible, d'autres non.
+* Aspect subjectif de la qualité du code
+* L'écrivain utilise un correcteur orhtographique, le développeur utilise sonarQube
+-->
+
+---
+
+![bg](./img/garden-2040714_1920.jpg)
+<!--
+* Un logiciel ressemble à un jardin qui mérite un entretien en même temps qu'il grandit
+* Entretien régulier/art
+* Un logiciel qui n'évolue plus (ou qui ne peut plus), est un logiciel mort
+le temps ne peut pas s'arrêter car l'écosystème bouge: les librairies, les systèmes d'exploitation, le hardware, la sécurité.
+-->
+
+
+---
+
+![bg c](./img/tools.jpg)
+<!-- Définition de l'artisan
+Qualification professionnelle pour effectuer un travail manuel
+-->
+
+---
+
+
+
+
+
 
 ![bg left:33%](./img/code.jpg)
 ###  In a software product, the most important deliverable is the code  itself
@@ -123,80 +205,8 @@ Changer les cultures et les pratiques
 ---
 ![bg contain](./img/debt.jpg)
 
----
-![bg left:50% 100%](./img/dog.png)
-
-### What is software development?
-<!--
-Pourquoi avons-nous oublié cette entropie logicielle?
-Mauvaise connaissance du métier de développement logiciel
--->
-
----
-![bg left:33%](./img/factory.jpg)
-#### Wrong understanding
-
-- Well-defined industrial process
-- Engineeers and Architects
-- Developpers as factory workers
-- More developpers, more production
-- Monitoring
-    - number of lines
-    - % comments
-<!-- 
-A quoi sert un commentaire: le why = git
-Commentaires: un commentaire peut devenir faux, non compilable/vérifiable/testable
-
-Un deveppeur sous pression prend des raccourcis, ajoute de la complexité.
-Ne prend pas le temps d'automatiser une tache répétitive
--->
-
----
-
-![bg](./img/construction-site-3432379_1280.jpg)
-<!--
-* Métaphore de la construction, architecte + autres corps de métier
-* Archicte construction != Architecte logiciel
-* Construction, c'est la compilation. la conception, c'est le développement
-* La construction est un procédé industrielle maintenant mature avec des contraintes physiques claires
-* Le developpement logiciel reste un métier jeun et surtout en perpetuelle évolution
-* La créativité des différents corps de métier reste très limité par rapport au plan
-Exemple il y a 30 ans (proc 200Mhz, pas de javascript, ni PHP/java)
-* Les progrès de la construction sont simples et visibles alors que le développement logiciel est abstrait et invisible => dmo
-* Si on recommence la même maison: temps identique, peu importe les macons
-* Différents en softs: apprentissage + différentes compétences
-
-* apprentissage et résolution d'un problème
-* Dépendant de l'équipe
--->
-
----
-
-![bg](./img/plume.jpg)
-<!--
-* Le développeur écrit du code qui doit être lisible et compris par d'autres
-* Certains vont trouver son écriture belle, propore, compréhensible, d'autres non.
-* Aspect subjectif de la qualité du code
-* L'écrivain utilise un correcteur orhtographique, le développeur utilise sonarQube
--->
-
----
-
-![bg](./img/garden-2040714_1920.jpg)
-<!--
-* Un logiciel ressemble à un jardin qui mérite un entretien en même temps qu'il grandit
-* Entretien régulier/art
-* Un logiciel qui n'évolue plus (ou qui ne peut plus), est un logiciel mort
-le temps ne peut pas s'arrêter car l'écosystème bouge: les librairies, les systèmes d'exploitation, le hardware, la sécurité.
--->
 
 
----
-
-![bg c](./img/tools.jpg)
-<!-- Définition de l'artisan
-Qualification professionnelle pour effectuer un travail manuel
--->
 
 
 ---
